@@ -1,0 +1,62 @@
+body {
+	margin: 0;
+	text-align: center;
+	position: relative;
+	font-family: 'Crimson Text', serif;
+}
+div {
+	position: relative;
+}
+h1 {
+	margin: 0 auto;
+	font-family: 'Nothing You Could Do', cursive;
+}
+h2 {
+	font-family: 'Montserrat', sans-serif;
+}
+h3 {
+	font-family: 'Montserrat', sans-serif;
+}
+.top-container {
+	background-color: #3b6978;
+	padding-top: 100px;
+}
+.top-cloud {
+	position: absolute;
+	right: 300px;
+	top: 50px;
+}
+.bottom-cloud {
+	position: absolute;
+	left: 300px;
+	bottom: 300px;
+}
+.profilepic {
+	padding-top: 20px;
+}
+.profile {
+	background-color: #e4e3e3;
+	padding-bottom: 5px;
+}
+.skills {
+	background-color: white;
+}
+.contact-me {
+	background-color: #4b5d67;
+	padding-top: 5px;
+}
+.bottom-container {
+	background-color: #4b5d67;
+	margin: 0;
+	padding-bottom: 0;
+}
+hr {
+	border-style: none;
+	border-top-style: dotted;
+	border-color: gray;
+	border-width: 10px;
+	width: 3%;
+}
+.mountain {
+	vertical-align: bottom;
+}
