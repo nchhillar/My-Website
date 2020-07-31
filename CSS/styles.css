@@ -2,23 +2,29 @@ body {
 	margin: 0;
 	text-align: center;
 	position: relative;
-	font-family: 'Crimson Text', serif;
+	font-family: 'Raleway', sans-serif;
 }
 div {
 	position: relative;
 }
 h1 {
-	margin: 0 auto;
+	font-size: 4em;
 	font-family: 'Nothing You Could Do', cursive;
+	margin: 0 auto;
+	color: #393e46;
 }
 h2 {
 	font-family: 'Montserrat', sans-serif;
+	color: #00adb5;
+	font-size: 1.6em;
 }
 h3 {
 	font-family: 'Montserrat', sans-serif;
+	color: #00adb5;
+	font-size: 1.25em;
 }
 .top-container {
-	background-color: #3b6978;
+	background-color: #3fc1c9;
 	padding-top: 100px;
 }
 .top-cloud {
@@ -42,21 +48,47 @@ h3 {
 	background-color: white;
 }
 .contact-me {
-	background-color: #4b5d67;
+	background-color: #eeeeee;
 	padding-top: 5px;
 }
 .bottom-container {
-	background-color: #4b5d67;
-	margin: 0;
-	padding-bottom: 0;
+	background-color: #eeeeee;
+	vertical-align: bottom;
 }
 hr {
 	border-style: none;
 	border-top-style: dotted;
 	border-color: gray;
-	border-width: 10px;
-	width: 3%;
+	border-width: 8px;
+	width: 4%;
 }
 .mountain {
 	vertical-align: bottom;
+}
+p {
+	font-size: 1em;
+	color: #4b5d67;
+}
+a:link {
+	color: #212121;
+}
+a:visited {
+	color: #212121;
+}
+.skill-image:hover {
+	transform: scale(1.2);
+}
+h1:hover {
+	transform: scale(1.1);
+}
+.footer-link {
+	display: inline-block;
+	position: relative;
+	width: 5%;
+}
+.footer-link:hover {
+	transform: scale(1.1);
+}
+.btn {
+	font-size: 1.05em;
 }
