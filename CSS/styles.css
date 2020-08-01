@@ -39,10 +39,11 @@ h3 {
 }
 .profile {
 	background-color: #eeeeee;
-	/* padding-bottom: 5px; */
+	padding: 25px 0 25px 0;
 }
 .skills {
 	background-color: #eeeeee;
+	padding: 25px 0 25px 0;
 }
 .contact-me {
 	background-color: #eeeeee;
@@ -104,5 +105,19 @@ a:visited {
 	color: white;
 }
 .second-p {
-	margin-bottom: 2.4rem;
+	margin: auto;
+	padding-bottom: 2rem;
+	width: 80%;
+}
+.intro {
+	width: 30%;
+	margin: auto;
+}
+.design {
+	width: 70%;
+	margin: auto;
+}
+.develop {
+	width: 70%;
+	margin: auto;
 }
