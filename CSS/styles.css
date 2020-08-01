@@ -103,6 +103,8 @@ a:visited {
 }
 .copyright {
 	color: white;
+	font-weight: bold;
+	padding-top: 1.2rem;
 }
 .second-p {
 	margin: auto;
