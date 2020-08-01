@@ -53,8 +53,9 @@ h3 {
 .bottom-container {
 	background-color: #00adb5;
 	vertical-align: bottom;
-	padding-bottom: 1px;
 	padding-top: 20px;
+	padding-bottom: 1px;
+	margin-top: 2rem;
 }
 hr {
 	border-style: none;
@@ -88,13 +89,6 @@ a:visited {
 .footer-link:hover {
 	transform: scale(1.1);
 }
-/* .btn {
-	background-color: #00adb5;
-	font-size: 1rem;
-	text-decoration: none;
-	color: white;
-	padding: 10px 25px;
-} */
 .skill-row {
 	margin: 10px auto 10px auto;
 	width: 50%;
