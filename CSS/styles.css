@@ -32,7 +32,7 @@ h3 {
 .bottom-cloud {
 	position: absolute;
 	left: 300px;
-	bottom: 300px;
+	bottom: 270px;
 }
 .profilepic {
 	padding-top: 20px;
@@ -47,7 +47,7 @@ h3 {
 }
 .contact-me {
 	background-color: #eeeeee;
-	padding-top: 10px;
+	padding-top: 30px;
 	padding-bottom: 50px;
 }
 .bottom-container {
@@ -78,6 +78,9 @@ a:visited {
 .skill-image {
 	width: 30%;
 }
+.skill-image:hover {
+	transform: scale(1.1);
+}
 .footer-link {
 	display: inline-block;
 	line-height: 2;
@@ -98,7 +101,7 @@ a:visited {
 .copyright {
 	color: white;
 	font-weight: bold;
-	padding-top: 1.2rem;
+	padding-top: 10px;
 }
 .second-p {
 	margin: auto;
